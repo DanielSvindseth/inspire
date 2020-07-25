@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: default;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 4em;
+  /*padding-top: calc(50vh - .5em);*/
+  font-family: 'Average Sans';
+}
+
+.page {
+  height: 100vh;
+  width: 100vw;
+  display: table;
+}
+
+#a, #a h1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#b, #b h1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Average Sans';
+  src: url('Average_Sans/AverageSans-Regular.ttf') format('truetype');
+}
