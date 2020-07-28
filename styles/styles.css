@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: default;
+  user-select: none;
+  font-family: 'Average Sans';
+}
+
+html {
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: 'Average Sans';
+  src: url('../fonts/Average_Sans/AverageSans-Regular.ttf') format('truetype');
+}
+
+h1 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 6vw;
+  font-family: 'Average Sans';
+}
+
+.header {
+  height: 100vh;
+  width: 100vw;
+  display: table;
+  animation: 800ms header-load-page forwards cubic-bezier(1,-0.01,.61,1);
+} @keyframes header-load-page {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 15vw;
+    /*min-height: calc(100vh / 3);*/
+  }
+}
+
+#ha, #ha h1 {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#hb, #hb h1 {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 12vw;
+  background-color: lightgreen;
+}
+
+.button {
+  display: table;
+  grid-column: auto;
+  grid-row: auto;
+  background-color: #3388cc; /* Fallback */
+} .button * {
+  font-size: 5vw;
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+} .button:hover {
+  transform: rotateX(180deg);
+  transition: 100ms;
+} .button:hover * {
+
+}
+
+/*@keyframes button-expand {
+  from { height: initial; width: initial; }
+  to { height: 100vh; width: 100vw; position: fixed; top: 0; }
+}*/
+
+#ba {
+  background-color: #fab;
+}
+
+#bb {
+  background-color: #ff5;
+}
+
+#bc {
+  background-color: #7c3;
+}
+
+#bd {
+  background-color: #7cf;
+}
