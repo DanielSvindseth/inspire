@@ -1,6 +1,14 @@
 * {
   color: white;
-  line-height: 1.1; }
+  line-height: 1.1;
+  font-family: 'Ubuntu Light'; }
+
+@font-face {
+font-family: 'Ubuntu Light';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
+}
 
 html { background-color: black; }
 
@@ -14,8 +22,11 @@ p  { font-size: 16px; }
 a  { font-size: 16px; color: #f36; }
 q  { font-size: 16px; }
 
-.slide { height: 728px; width: 984px; border: solid transparent 20px; }
+.slide { height: 728px; width: 984px; padding: 20px; }
 
 #sa { background-color: #7c9; }
-#sb { background-color: #f49; }
-#sc { background-color: #2b6; }
+#sb { background-color: #f49; background-image: url(../images/Sheep-Wallpaper.jpg); background-size: cover; background-repeat: no-repeat; }
+#sc { background-color: #2b6; background-image: url(../images/IMG_4948.jpg); background-size: cover; background-repeat: no-repeat; }
+#sd { background-color: #333; }
+#se { background-color: #319; }
+#sf { background-color: #9c0; }
