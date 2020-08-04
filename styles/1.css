@@ -1,0 +1,21 @@
+* {
+  color: white;
+  line-height: 1.1; }
+
+html { background-color: black; }
+
+h1 { font-size: 72px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
+h4 { font-size: 22px; }
+h5 { font-size: 20px; }
+h6 { font-size: 18px; }
+p  { font-size: 16px; }
+a  { font-size: 16px; color: #f36; }
+q  { font-size: 16px; }
+
+.slide { height: 728px; width: 984px; border: solid transparent 20px; }
+
+#sa { background-color: #7c9; }
+#sb { background-color: #f49; }
+#sc { background-color: #2b6; }

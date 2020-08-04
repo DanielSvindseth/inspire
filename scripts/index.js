@@ -21,7 +21,7 @@ id('bd').onmouseover = function() { id('bd').focus(); }
 
 ////  Button links  ////
 
-id('ba').onclick = function() { window.location = 'what-is-language.html' }
-id('bb').onclick = function() { window.location = 'why-is-language.html' }
-id('bc').onclick = function() { window.location = 'when-is-language.html' }
-id('bd').onclick = function() { window.location = 'where-is-language.html' }
+id('ba').onclick = function() { window.location = '1.html' }
+id('bb').onclick = function() { window.location = '2.html' }
+id('bc').onclick = function() { window.location = '4.html' }
+id('bd').onclick = function() { window.location = '8.html' }
