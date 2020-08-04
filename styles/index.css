@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  cursor: default;
+  user-select: none;
+  font-family: 'Average Sans'; }
+*:focus {
+  outline: none; }
+
+html {
+  overflow-x: hidden; }
+
+body {
+  min-height: 100vh; }
+
+@font-face {
+  font-family: 'Average Sans';
+  src: url('../fonts/Average_Sans/AverageSans-Regular.ttf') format('truetype'); }
+
+h1 {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 40px;
+  font-family: 'Average Sans';
+  animation: 800ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1); }
+
+.header {
+  height: 100vh;
+  width: 100%;
+  display: table;
+  animation: 800ms header-load-page forwards cubic-bezier(1,-0.01,.61,1); }
+
+
+@keyframes header-load-page {
+  from { height: 100vh; }
+  to { height: 80px; } }
+@keyframes header-text-load-page {
+  from { font-size: 12vw; }
+  to { font-size: 40px; } }
+
+
+#ha, #ha h1 { background-color: #ffffff; color: #000000; }
+#hb, #hb h1 { background-color: #000000; color: #ffffff; }
+
+.page {
+  display: grid;
+  background-color: #ffffff; }
+
+@media only screen and (min-width: 1201px) {
+  .page {
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 12vw; }
+  .button {
+    height: 12vw; }
+  .button * {
+    font-size: 4vw; } }
+
+@media only screen and (max-width: 1200px) {
+  .page {
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: 16vw; }
+  .button {
+    height: 16vw; }
+  .button * {
+    font-size: 5.5vw; } }
+
+@media only screen and (max-width: 900px) {
+  .page {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 22vw; }
+  .button {
+    height: 22vw; }
+  .button * {
+    font-size: 7vw; } }
+
+@media only screen and (max-width: 600px) {
+  .page {
+    grid-template-columns: 100%;
+    grid-template-rows: 33vw; }
+  .button {
+    height: 33vw; }
+  .button * {
+    font-size: 10vw; } }
+
+
+.button {
+  display: table;
+  grid-column: auto;
+  grid-row: auto;
+  background-color: #3388cc; /* Fallback */ }
+.button * {
+  text-align: center;
+  vertical-align: middle;
+  display: table-cell;
+  overflow: hidden; }
+.button:hover * {
+  transition: 0ms;
+  color: #ffffff; }
+.button:focus * {
+  transition: 0ms;
+  color: #ffffff; }
+
+#ba { background-color: #59c13f; }
+#bb { background-color: #01adba; }
+#bc { background-color: #f4cc02; }
+#bd { background-color: #e5463b; }
