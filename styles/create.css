@@ -26,6 +26,8 @@
 .d-narrow { width: 512px;  }
 .d-tall   { height: 768px; }
 .d-short  { height: 384px; }
+.d-inspire-large { width: 984px; height: 728px; }
+.d-inspire-small { width: 492px; height: 364px; }
 
 /* Grid */
 
@@ -146,7 +148,7 @@ button {
   box-shadow: 0 1px 1px #0000007f;
   font-size: 20px;
   min-width: 60px;
-  min-height: 60px; }
+  min-height: 40px; }
 button:hover {
   filter: brightness(1.1); }
 button:active {
@@ -154,7 +156,8 @@ button:active {
 
 [type="text"] {
   border-radius: 8px;
-  box-shadow: 0 1px 1px #0000007f; }
+  box-shadow: 0 1px 1px #0000007f;
+  color: black; }
 
 .no-border-l {
   border-top-left-radius: 0;

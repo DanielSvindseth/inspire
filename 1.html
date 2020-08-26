@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>1</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/1.css">
+    <link rel="stylesheet" href="styles/create.css">
   </head>
   <body>
     <div id="impress"
@@ -15,45 +17,83 @@
     data-perspective="1000"
     data-autoplay="0">
 
-      <div id="overview" class="step slide" data-x="1024" data-y="384" data-z="1000">
+      <div id="overview" class="step slide" data-x="1024" data-y="384" data-z="900"></div>
 
-      </div>
-
-      <div id="sa" class="step slide" data-x="0" data-y="0" data-z="0">
+      <div id="s1" class="step slide" data-x="0" data-y="0" data-z="0">
         <h1>This is so inspirational</h1>
-        <p>What about grass?</p>
+        <p>What about trees?</p>
         <a>and cake with 41 birthday candles?</a>
         <p>sure, i'm just gonna go over here and play on my saxophone</p>
       </div>
 
-      <div id="sb" class="step slide" data-x="1024" data-y="0">
+      <div id="s2" class="step slide" data-x="1024" data-y="0">
 
       </div>
 
-      <div id="sc" class="step slide" data-x="2048" data-y="0">
+      <div id="s3" class="step slide" data-x="2048" data-y="0">
 
       </div>
 
-      <div id="sd" class="step slide" data-x="0" data-y="768" data-z="0">
+      <div id="s4" class="step slide" data-x="0" data-y="768" data-z="0">
         <h1>This is so inspirational</h1>
-        <p>What about grass?</p>
+        <p>What about bees?</p>
         <a>and cake with 41 birthday candles?</a>
         <p>sure, i'm just gonna go over here and play on my saxophone</p>
+        <p>I'm getting some dejavu</p>
       </div>
 
-      <div id="se" class="step slide" data-x="1024" data-y="768">
-
+      <div id="s5" class="step slide" data-x="1024" data-y="768">
+        <iframe width="984" height="728" src="https://www.youtube-nocookie.com/embed/0pbPOZPMNpY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
-      <div id="sf" class="step slide" data-x="2048" data-y="768">
+      <div id="s6" class="step slide" data-x="2048" data-y="768">
+        <div class="d-grid-12 d-inspire-large">
+          <h1 class="f-black f-center i-full-width">Spørsmål?</h1>
 
+
+          <button class="i-duo-col-1 i-row-2 btn-red">Forrige</button>
+          <button class="i-duo-col-11 i-row-2 btn-white">Neste</button>
+
+          <h6 class="i-row-3 i-col-10 f-center">Kryss av rett svar</h6>
+
+          <h3 class="i-row-4 i-quad-col-4">Alternativ 1</h3>
+          <div class="sep-solid i-row-4 i-hex-col-4"></div>
+          <label class="checkbox i-row-4 i-col-10"><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+          <h3 class="i-row-5 i-quad-col-4">Alternativ 2</h3>
+          <div class="sep-solid i-row-5 i-hex-col-4"></div>
+          <label class="checkbox i-row-5 i-col-10"><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+          <h3 class="i-row-6 i-quad-col-4">Alternativ 3</h3>
+          <div class="sep-solid i-row-6 i-hex-col-4"></div>
+          <label class="checkbox i-row-6 i-col-10"><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+          <h3 class="i-row-7 i-quad-col-4">Alternativ 5</h3>
+          <div class="sep-solid i-row-7 i-hex-col-4"></div>
+          <label class="checkbox i-row-7 i-col-10"><input type="checkbox" checked="checked"><span class="checkmark"></span></label>
+
+          <button class="i-hex-col-4 i-row-10 btn-blue">Svar</button>
+
+          <input class="i-quad-col-4 i-row-12 no-border-r" type="text" value="">
+          <button class="i-duo-col-8 i-row-12 btn-blue no-border-l">Svar</button>
+        </div>
       </div>
 
+      <div id="TOC" class="step slide" data-x="1024" data-y="384" data-z="-10000">
+        <div class="d-grid-12 d-inspire-large">
+          <h1 class="i-quad-col-5 i-row-1 t-center">Innhald</h1>
+          <div id="b-s1" class="i-hex-col-4 i-row-3 toc-btn"><button class="btn-white">Inspirational</button></div>
+          <div id="b-s2" class="i-hex-col-4 i-row-4 toc-btn"><button class="btn-white">Fiction</button></div>
+          <div id="b-s3" class="i-hex-col-4 i-row-5 toc-btn"><button class="btn-white">Reality</button></div>
+          <div id="b-s4" class="i-hex-col-4 i-row-6 toc-btn"><button class="btn-white">Dejavu</button></div>
+          <div id="b-s5" class="i-hex-col-4 i-row-7 toc-btn"><button class="btn-white">Video</button></div>
+          <div id="b-s6" class="i-hex-col-4 i-row-8 toc-btn"><button class="btn-white">Quiz</button></div>
+        </div>
+      </div>
 
     </div>
 
 
     <script src="scripts/impress.js"></script>
+    <script src="scripts/mousetrap.min.js"></script>
+    <script src="scripts/1.js"></script>
     <script>impress().init();</script>
   </body>
 </html>

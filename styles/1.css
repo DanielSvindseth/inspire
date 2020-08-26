@@ -22,11 +22,22 @@ p  { font-size: 16px; }
 a  { font-size: 16px; color: #f36; }
 q  { font-size: 16px; }
 
+.t-center { text-align: center; }
+
 .slide { height: 728px; width: 984px; padding: 20px; }
 
-#sa { background-color: #7c9; }
-#sb { background-color: #f49; background-image: url(../images/Sheep-Wallpaper.jpg); background-size: cover; background-repeat: no-repeat; }
-#sc { background-color: #2b6; background-image: url(../images/IMG_4948.jpg); background-size: cover; background-repeat: no-repeat; }
-#sd { background-color: #333; }
-#se { background-color: #319; }
-#sf { background-color: #9c0; }
+.toc-btn {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 80% 10%; }
+.toc-btn > button {
+  grid-column: 1;
+  grid-row: 2 / 3; }
+
+
+#s1 { background-color: #7c9; }
+#s2 { background-color: #f49; background-image: url(../images/Sheep-Wallpaper.jpg); background-size: cover; background-repeat: no-repeat; }
+#s3 { background-color: #2b6; background-image: url(../images/IMG_4948.jpg); background-size: cover; background-repeat: no-repeat; }
+#s4 { background-color: #333; }
+#s5 { background-color: #319; }
+#s6 { background-color: #9c0; }

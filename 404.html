@@ -15,5 +15,10 @@
   </body>
   <script type="text/javascript">
     document.getElementById('home-btn').addEventListener("click", function() { location.href='index.html'; });
+    var r, g, b;
+    r = Math.floor(Math.random(1, 255));
+    g = Math.floor(Math.random(1, 255));
+    b = Math.floor(Math.random(1, 255));
+    document.body.style.backgroundColor = rgb(r, g, b);
   </script>
 </html>
