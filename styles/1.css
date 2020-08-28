@@ -1,14 +1,34 @@
 * {
-  color: white;
-  line-height: 1.1;
+  line-height: 1.15;
   font-family: 'Ubuntu Light'; }
 
 @font-face {
 font-family: 'Ubuntu Light';
 font-style: normal;
 font-weight: normal;
-src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype');
-}
+src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('truetype'); }
+
+.bg-black { background-color: #000;  color: #fff; } .bg-black  * { color: #fff; }
+.bg-white { background-color: #fff;  color: #000; } .bg-white  * { color: #000; }
+.bg-teal  { background-color: #378;  color: #fff; } .bg-teal   * { color: #fff; }
+.bg-pink  { background-color: #fab;  color: #000; } .bg-pink   * { color: #000; }
+.bg-yellow{ background-color: #ed4;  color: #000; } .bg-yellow * { color: #000; }
+.bg-green { background-color: #5e9;  color: #fff; } .bg-green  * { color: #fff; }
+.bg-blue  { background-color: #37e;  color: #fff; } .bg-blue   * { color: #fff; }
+.bg-red   { background-color: #e54;  color: #fff; } .bg-red    * { color: #fff; }
+.bg-purple{ background-color: #95c;  color: #fff; } .bg-purple * { color: #fff; }
+.bg-none  { background-color: #0000; color: #fff; } .bg-none   * { color: #fff; }
+
+.t-black  { color: #000 !important; }
+.t-white  { color: #fff !important; }
+.t-teal   { color: #6ab !important; }
+.t-pink   { color: #b89 !important; }
+.t-yellow { color: #fe9 !important; }
+.t-green  { color: #5e7 !important; }
+.t-blue   { color: #59f !important; }
+.t-red    { color: #c36 !important; }
+.t-purple { color: #95c !important; }
+.t-none   { color: #0000!important; }
 
 html { background-color: black; }
 
@@ -19,7 +39,7 @@ h4 { font-size: 22px; }
 h5 { font-size: 20px; }
 h6 { font-size: 18px; }
 p  { font-size: 16px; }
-a  { font-size: 16px; color: #f36; }
+a  { font-size: 16px; color: #f25; }
 q  { font-size: 16px; }
 
 .t-center { text-align: center; }
@@ -34,10 +54,23 @@ q  { font-size: 16px; }
   grid-column: 1;
   grid-row: 2 / 3; }
 
-
+/*
 #s1 { background-color: #7c9; }
 #s2 { background-color: #f49; background-image: url(../images/Sheep-Wallpaper.jpg); background-size: cover; background-repeat: no-repeat; }
 #s3 { background-color: #2b6; background-image: url(../images/IMG_4948.jpg); background-size: cover; background-repeat: no-repeat; }
 #s4 { background-color: #333; }
 #s5 { background-color: #319; }
 #s6 { background-color: #9c0; }
+
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+
+*/
