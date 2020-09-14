@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The New Deal in the USA</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/create-16:9.css">
+    <link rel="stylesheet" href="styles/NewDeal.css">
+  </head>
+  <body>
+
+    <img id="NewDeal-img" class="bg" src="images/NewDeal/NewDeal.jpg"> <!-- Public Domain -->
+
+    <div id="impress"
+    data-transition-duration="200"
+    data-width="1920"
+    data-height="1080"
+    data-max-scale="3"
+    data-min-scale="0"
+    data-perspective="100"
+    data-autoplay="0">
+<!--
+      <div id="overview" class="step" data-x="0" data-y="0" data-z="400" data-rotate-y="0">
+      </div>
+    -->
+
+      <div id="s1" class="step" data-x="0" data-y="0" data-z="0">
+        <h1>New Deal</h1>
+      </div>
+
+      <div id="s2" class="step" data-rel-x="0" data-rel-y="650" data-rel-z="100">
+        <h3>What?</h3>
+        <h4> - Economic Reform</h4>
+        <br>
+        <h3>Why?</h3>
+        <h4> - Great Depression</h4>
+        <h3>By Who?</h3>
+        <h4> - President Franklin D. Roosevelt</h4>
+      </div>
+
+
+    </div>
+  </body>
+  <script src="scripts/mousetrap.min.js"></script>
+  <script src="scripts/impress.min.js"></script>
+  <script src="scripts/NewDeal.js"></script>
+  <script>impress().init();</script>
+</html>
