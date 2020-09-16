@@ -5,6 +5,10 @@
   font-family: 'Ubuntu Light';
   transition: 0.5s; }
 
+body {
+  z-index: -2000;
+}
+
 @font-face {
 font-family: 'Ubuntu Light';
 font-style: normal;
@@ -89,14 +93,62 @@ li { font-size: 30px; }
 .bg {
   opacity: 0;
   position: fixed;
+  display: block;
   top: 0;
   left: 0;
   z-index: -1000;
   min-width: 100%;
   min-height: 100%;
   object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; }
+.bg-l {
+  opacity: 0;
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1000;
+  width: 50%;
+  min-height: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; }
+.bg-r {
+  opacity: 0;
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  z-index: -1000;
+  width: 50%;
+  min-height: 100%;
+  object-fit: contain;
+  margin-left: auto;
+  margin-right: auto; }
+.bg-subtext {
+  opacity: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -950; }
+.bg-text-l {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 40px;
+  margin-top: 80px;
+  z-index: -950; }
+.bg-text-r {
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 40px;
+  margin-top: 80px;
+  z-index: -950; }
 
-}
 
 #s1 > h1, #s1 > h6 { text-shadow: 2px 2px 2px black; }
 
@@ -104,17 +156,21 @@ li { font-size: 30px; }
 #s2-what, #s2-why, #s2-who { opacity: 0.3; }
 
 body.impress-on-s1 #s1-creds { opacity: 1; }
-body.impress-on-s3 #s2-what { opacity: 1; }
-body.impress-on-s4 #s2-why  { opacity: 1; }
-body.impress-on-s5 #s2-who  { opacity: 1; }
-body.impress-on-s6 #s2-what, body.impress-on-s6 #s2-why, body.impress-on-s6 #s2-who  { opacity: 1; }
+body.impress-on-s3 #s2-what  { opacity: 1; }
+body.impress-on-s4 #s2-why   { opacity: 1; }
+body.impress-on-s5 #s2-who   { opacity: 1; }
+body.impress-on-s6 #s2-what, body.impress-on-s6 #s2-why, body.impress-on-s6 #s2-who  { opacity: 0.7; }
 
 
 body.impress-on-s1 #NewDeal-img { opacity: 0.7; }
 body.impress-on-s2 { background-color: var(--d-gray); }
 body.impress-on-s3 { background-color: var(--d-gray); }
-body.impress-on-s4 { background-color: var(--d-gray); }
-body.impress-on-s5 { background-color: var(--d-gray); }
+/*body.impress-on-s4 { background-color: var(--d-gray); } */
+body.impress-on-s4 #Depression-img { opacity: 0.7; }
+body.impress-on-s4 #Depression-txt { opacity: 0.7; }
+/*body.impress-on-s5 { background-color: var(--d-gray); } */
+body.impress-on-s5 #Roosevelt-img { opacity: 0.7; }
+body.impress-on-s5 #Roosevelt-subtxt { opacity: 0.8; }
 body.impress-on-s6 { background-color: var(--d-gray); }
 body.impress-on-s7 { background-color: var(--d-gray); }
 body.impress-on-s8 { background-color: var(--d-gray); }
