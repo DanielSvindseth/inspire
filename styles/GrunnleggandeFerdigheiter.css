@@ -167,8 +167,9 @@ body.impress-on-s4 #s2-why   { opacity: 1; }
 body.impress-on-s5 #s2-who   { opacity: 1; }
 body.impress-on-s6 #s2-what, body.impress-on-s6 #s2-why, body.impress-on-s6 #s2-who  { opacity: 0.7; }
 
+/*body.impress-on-s1 { background-color: var(--white); }*/
+body.impress-on-s1 #navigation { opacity: 0.9; }
 
-body.impress-on-s1 #navigation { opacity: 0.7; }
 body.impress-on-s2 { background-color: var(--d-gray); }
 body.impress-on-s3 { background-color: var(--red); }
 body.impress-on-s4 { background-color: var(--green); }
