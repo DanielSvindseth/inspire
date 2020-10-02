@@ -3,7 +3,7 @@
   text-shadow: 2px 2px 2px black;
   line-height: 1.15;
   font-family: 'Ubuntu Light';
-  transition: 0.5s; }
+   }
 
 .no-pad {
   padding: 0;
@@ -151,6 +151,7 @@ li { font-size: 30px; }
   right: 0;
   padding: 40px;
   margin-top: 80px;
+  transition: 0.3s;
   z-index: -950; }
 
 
@@ -168,11 +169,11 @@ body.impress-on-s6 #s2-what, body.impress-on-s6 #s2-why, body.impress-on-s6 #s2-
 
 body.impress-on-s1 #navigation { opacity: 0.7; }
 body.impress-on-s2 { background-color: var(--d-gray); }
-body.impress-on-s3 { background-color: var(--d-gray); }
-/*body.impress-on-s4 { background-color: var(--d-gray); } */
-/*body.impress-on-s5 { background-color: var(--d-gray); } */
-body.impress-on-s6 { background-color: var(--d-gray); }
-body.impress-on-s7 { background-color: var(--d-gray); }
+body.impress-on-s3 { background-color: var(--red); }
+body.impress-on-s4 { background-color: var(--green); }
+body.impress-on-s5 { background-color: var(--blue); }
+body.impress-on-s6 { background-color: var(--yellow); }
+body.impress-on-s7 { background-color: var(--purple); }
 body.impress-on-s8 { background-color: var(--d-gray); }
 body.impress-on-s9 { background-color: var(--d-gray); }
 /*

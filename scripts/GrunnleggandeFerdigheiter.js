@@ -24,10 +24,18 @@ Mousetrap.bind('shift+7', function() { location.href = '#/s17' } );
 Mousetrap.bind('shift+8', function() { location.href = '#/s18' } );
 Mousetrap.bind('shift+9', function() { location.href = '#/s19' } );
 Mousetrap.bind('shift+0', function() { location.href = '#/s20' } );
-
+/*
 id('b-s1').addEventListener('click', function() { location.href = '#/s1' })
 id('b-s2').addEventListener('click', function() { location.href = '#/s2' })
 id('b-s3').addEventListener('click', function() { location.href = '#/s3' })
 id('b-s4').addEventListener('click', function() { location.href = '#/s4' })
 id('b-s5').addEventListener('click', function() { location.href = '#/s5' })
 id('b-s6').addEventListener('click', function() { location.href = '#/s6' })
+
+id('button-skriving').addEventListener('click', function() { id('audio-generelt').play(); } )
+
+id('writing-btn').addEventListener('click', function() {
+  audioObj = new Audio('audio/GrunnleggandeFerdigheiter/writing.ogg');
+  audioObj.play();
+})
+*/
