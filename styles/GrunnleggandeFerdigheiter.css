@@ -155,6 +155,12 @@ li { font-size: 30px; }
   transition: 0.3s;
   z-index: -950; }
 
+.box-img {
+  width: 100%;
+  box-shadow: 1px 1px 4px black;
+  border-radius: 4px;
+}
+
 
 #s1 > h1, #s1 > h6 { text-shadow: 2px 2px 2px black; }
 
