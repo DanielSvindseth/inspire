@@ -27,7 +27,8 @@
 .d-tall   { height: 768px; }
 .d-short  { height: 384px; }
 .d-inspire-large { width: 1840px; height: 1000px; }
-.d-inspire-small { width: 920px; height: 500px; }
+.d-inspire-small { width: 920px;  height: 500px;  }
+.d-inspire-medium{ width: 1240px; height: 680px;  }
 
 /* Grid */
 
