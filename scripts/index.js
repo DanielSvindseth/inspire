@@ -4,10 +4,20 @@
 
 function id(id) {
   return document.getElementById(id); }
+function tag(tag) {
+  return document.getElementsByTagName(tag); }
 
 
 //////  Site Functions  //////
 
+function boxify() {
+  for (var i = 0; i < tag(a).length; i++) {
+    tag(a)[i].style.display = block;
+    tag(a)[i].style.height = 40;
+    tag(a)[i].style.width = 40;
+    tag(a)[i].style.backgroundColor = red;
+  }
+}
 
 ////  Mouseover focus change  ////
 
