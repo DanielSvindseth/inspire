@@ -30,9 +30,9 @@ src: local('Ubuntu Light'), url('../fonts/Ubuntu/Ubuntu-Light.ttf') format('true
 .t-purple { color: #95c !important; }
 .t-none   { color: #0000!important; }
 
-html { background-color: black; }
+html { background-color: white; }
 
-h1 { font-size: 72px; }
+h1 { font-size: 104px; }
 h2 { font-size: 36px; }
 h3 { font-size: 28px; }
 h4 { font-size: 22px; }
