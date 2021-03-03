@@ -2,7 +2,7 @@ function id(id) {
   return document.getElementById(id); }
 
 // Talet på slides +1
-var numberOfSlides = '13';
+var numberOfSlides = '12';
 
 Mousetrap.bind('o', function() { location.href = '#/overview' } );
 Mousetrap.bind('i', function() { location.href = '#/TOC'; } );
