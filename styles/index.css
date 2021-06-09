@@ -32,6 +32,23 @@ h1 {
   display: table;
   animation: 800ms header-load-page forwards cubic-bezier(1,-0.01,.61,1); }
 
+a {
+  display: block;
+  width: calc(25%);
+  height: 8vw;
+  text-align: center;
+  padding-top: 4vw;
+  font-family: 'Lexend Deca';
+  font-size: 40px;
+  color: black;
+  text-decoration: none;
+  animation: 800ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1);
+  /*background-image: radial-gradient(#fab, #baf);*/
+}
+
+a:hover {
+  color: white;
+}
 
 @keyframes header-load-page {
   from { height: 100vh; }
@@ -45,7 +62,8 @@ h1 {
 #hb, #hb h1 { background-color: #000000; color: #ffffff; }
 
 .page {
-  display: grid;
+  display: flex;
+  flex-flow: row wrap;
   background-color: #ffffff; }
 
 @media only screen and (min-width: 1201px) {
