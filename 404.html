@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/create.css">
+    <link rel="stylesheet" href="styles/404.css">
+    <title>404 Sida finnst ikkje</title>
+  </head>
+  <body>
+    <div class="d-grid-12 d-wide d-tall d-center">
+      <h1 class="i-row-5 i-quad-col-5">404</h1>
+      <p class="i-row-8 i-quad-col-5">Sida finnst ikkje ¯\_(ツ)_/¯</p>
+      <button id="home-btn" class="i-row-10 i-duo-col-6">Heim</button>
+    </div>
+  </body>
+  <script type="text/javascript">
+    document.getElementById('home-btn').addEventListener("click", function() { location.href='index.html'; });
+    var r, g, b;
+    r = Math.floor(Math.random(1, 255));
+    g = Math.floor(Math.random(1, 255));
+    b = Math.floor(Math.random(1, 255));
+    document.body.style.backgroundColor = rgb(r, g, b);
+  </script>
+</html>
