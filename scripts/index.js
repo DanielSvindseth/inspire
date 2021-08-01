@@ -11,16 +11,26 @@ function tag(tag) {
 //////  Site Functions  //////
 
 function boxify() {
-  for (var i = 0; i < tag(a).length; i++) {
-    tag(a)[i].style.display = block;
-    tag(a)[i].style.height = 40;
-    tag(a)[i].style.width = 40;
-    tag(a)[i].style.backgroundColor = red;
+  for (var i = 0; i < tag('a').length; i++) {
+    //tag('a')[i].style.height = '40px';
+    //tag('a')[i].style.width = '40px';
+    getRandomColor(tag('a')[i]);
   }
 }
 
-////  Mouseover focus change  ////
+function getRandomColor(e) {
+  var r = Math.floor(Math.random() * (255 - 63) + 63);
+  console.log('Red value   = ' + r);
+  var g = Math.floor(Math.random() * (255 - 63) + 63);
+  console.log('Green value = ' + g);
+  var b = Math.floor(Math.random() * (255 - 63) + 63);
+  console.log('Blue value  = ' + b);
+  var a = 1;
+  e.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';
+}
 
+////  Mouseover focus change  ////
+/*
 id('ha').onmouseover = function() { id('ha').focus(); }
 id('body').onmouseover = function() { id('ha').focus(); }
 
@@ -37,3 +47,5 @@ id('bb').onclick = function() { window.location = 'ped.html' }
 id('bc').onclick = function() { window.location = 'eng.html' }
 id('bd').onclick = function() { window.location = 'mat.html' }
 id('be').onclick = function() { window.location = 'praksis-math2.html' }
+*/
+boxify();
