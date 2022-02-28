@@ -41,6 +41,7 @@ h6 { font-size: 18px; }
 p  { font-size: 16px; }
 a  { font-size: 16px; color: #f25; }
 q  { font-size: 16px; }
+b  { font-weight: bolder; }
 
 .t-center { text-align: center; }
 
