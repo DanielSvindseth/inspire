@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>KRLE 1. Mars</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/KRLE_1_Mars.css">
+    <link rel="stylesheet" href="styles/create-4:3.css">
+
+  </head>
+  <body>
+    <div id="impress"
+    data-transition-duration="200"
+    data-width="1024"
+    data-height="768"
+    data-max-scale="3"
+    data-min-scale="0"
+    data-perspective="1000"
+    data-autoplay="0">
+
+      <div id="overview" class="step slide" data-x="1024" data-y="384" data-z="900"></div>
+
+      <div id="s1" class="step slide bg-white" data-x="0" data-y="0" data-z="0">
+        <h1></h1>
+        <p></p>
+      </div>
+
+      <div id="s2" class="step slide bg-black" data-x="1024" data-y="0">
+
+      </div>
+
+      <div id="s3" class="step slide bg-none" data-x="2048" data-y="0">
+        <div class="nrk-video" data-nrk-id="a339f066-cf03-498d-ae56-9308cb45e2b3">&nbsp;</div>
+        <a href="https://www.nrk.no/skole?mediaId=25503">Hvem var Buddha? (09:00)</a>
+      </div>
+
+      <div id="s4" class="step slide bg-red" data-x="0" data-y="768" data-z="0">
+
+      </div>
+
+      <div id="s5" class="step slide bg-teal" data-x="1024" data-y="768">
+
+      </div>
+
+      <div id="s6" class="step slide bg-purple" data-x="2048" data-y="768">
+
+      </div>
+
+      <div id="TOC" class="step slide bg-none" data-x="1024" data-y="384" data-z="-10000">
+        <div class="d-grid-12 d-inspire-large">
+          <h1 class="i-quad-col-5 i-row-1 t-center">Innhald</h1>
+          <div id="b-s1" class="i-hex-col-4 i-row-3 toc-btn"><button class="btn-white">Inspirational</button></div>
+          <div id="b-s2" class="i-hex-col-4 i-row-4 toc-btn"><button class="btn-white">Fiction</button></div>
+          <div id="b-s3" class="i-hex-col-4 i-row-5 toc-btn"><button class="btn-white">Reality</button></div>
+          <div id="b-s4" class="i-hex-col-4 i-row-6 toc-btn"><button class="btn-white">Dejavu</button></div>
+          <div id="b-s5" class="i-hex-col-4 i-row-7 toc-btn"><button class="btn-white">Video</button></div>
+          <div id="b-s6" class="i-hex-col-4 i-row-8 toc-btn"><button class="btn-white">Quiz</button></div>
+        </div>
+      </div>
+
+    </div>
+
+
+    <script src="scripts/impress.js"></script>
+    <script src="scripts/mousetrap.min.js"></script>
+    <script src="scripts/1.js"></script>
+    <script src="https://static.nrk.no/ludo/latest/video-embed.js"></script>
+    <script>impress().init();</script>
+  </body>
+</html>
