@@ -38,7 +38,7 @@ h1 {
 }
 
 #range {
-  display: block;
+  display: none;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -54,4 +54,9 @@ h1 {
 
 *::-webkit-scrollbar {
   display: none;
+}
+
+#timer {
+  font-size: 90px;
+  text-align: center;
 }
