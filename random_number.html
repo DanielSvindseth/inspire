@@ -2,13 +2,25 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Inspire</title>
+    <title>Random Numbers</title>
     <link rel="stylesheet" href="styles/random_number.css">
   </head>
   <body id="body">
     <h1 id="number">
       Trykk 'Space' for å få eit tilfeldig nummer
     </h1>
+    <div id="memory">
+      <div id="memory-child">
+
+      </div>
+    </div>
+    <h2 id="last-number-indicator">
+      ← Siste nummer
+    </h2>
+    <div id="range">
+      <input type="checkbox" id="repeat-checkbox" name="repeat-checkbox" value="Ikkje gjenta nummer">
+      <label for="repeat-checkbox">Ikkje gjenta nummer</label>
+    </div>
     <script src="scripts/mousetrap.min.js"></script>
     <script src="scripts/random_number.js"></script>
   </body>
