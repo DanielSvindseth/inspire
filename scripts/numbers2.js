@@ -2,6 +2,9 @@ function id(id) {
   return document.getElementById(id); }
 
 var decimal = 0;
+var number = 0;
+var numbers2_decimal = 0;
+var numbers2_number = 0;
 
 localStorage.setItem(numbers2_number, 100);
 localStorage.setItem(numbers2_decimal, 1);
