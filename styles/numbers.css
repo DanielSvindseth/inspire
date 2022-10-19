@@ -1,0 +1,58 @@
+h1 {
+  font-size: 300px;
+  text-align: center;
+  margin-top: 300px;
+  font-family: 'Exo 2', sans-serif;
+}
+
+#body {
+  width: calc(100% - 8px);
+  height: 100%;
+  z-index: 1;
+}
+
+#memory {
+  height: calc(100vh - 36px);
+  width: auto;
+  display: block;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  top: 0;
+  padding-left: 10px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+#memory-child {
+  font-size: 30px;
+  display: block;
+}
+
+#last-number-indicator {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 60px;
+}
+
+#range {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  width: 200px;
+  height: 60px;
+}
+
+#repeat-checkbox {
+
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
