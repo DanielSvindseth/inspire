@@ -25,20 +25,36 @@ function decrease() {
 
 Mousetrap.bind('right', function() {
   increase();
-  id("number").innerHTML = localStorage.getItem('numbers1_decimal');
+  var i = String(localStorage.getItem('numbers1_decimal'));
+  if(i.includes('.')) {
+    i = i.replace('.', ',');
+  }
+  id("number").innerHTML = i;
 } );
 
 Mousetrap.bind('pagedown', function() {
   increase();
-  id("number").innerHTML = localStorage.getItem('numbers1_decimal');
+  var i = String(localStorage.getItem('numbers1_decimal'));
+  if(i.includes('.')) {
+    i = i.replace('.', ',');
+  }
+  id("number").innerHTML = i;
 } );
 
 Mousetrap.bind('pageup', function() {
   decrease();
-  id("number").innerHTML = localStorage.getItem('numbers1_decimal');
+  var i = String(localStorage.getItem('numbers1_decimal'));
+  if(i.includes('.')) {
+    i = i.replace('.', ',');
+  }
+  id("number").innerHTML = i;
 } );
 
 Mousetrap.bind('left', function() {
   decrease();
-  id("number").innerHTML = localStorage.getItem('numbers1_decimal');
+  var i = String(localStorage.getItem('numbers1_decimal'));
+  if(i.includes('.')) {
+    i = i.replace('.', ',');
+  }
+  id("number").innerHTML = i;
 } );
