@@ -19,11 +19,11 @@ function boxify() {
 }
 
 function getRandomColor(e) {
-  var r = Math.floor(Math.random() * (255 - 63) + 63);
+  var r = Math.floor(Math.random() * (255 - 95) + 95);
   console.log('Red value   = ' + r);
-  var g = Math.floor(Math.random() * (255 - 63) + 63);
+  var g = Math.floor(Math.random() * (255 - 95) + 95);
   console.log('Green value = ' + g);
-  var b = Math.floor(Math.random() * (255 - 63) + 63);
+  var b = Math.floor(Math.random() * (255 - 95) + 95);
   console.log('Blue value  = ' + b);
   var a = 1;
   e.style.backgroundColor='rgba(' + r + ', ' + g + ', ' + b + ', ' + a + ')';

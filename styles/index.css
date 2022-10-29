@@ -22,32 +22,43 @@ h1 {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  font-size: 40px;
+  font-size: 2vw;
   font-family: 'Average Sans';
-  animation: 800ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1); }
+  animation: 400ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1); }
 
 .header {
   height: 100vh;
   width: 100%;
   display: table;
-  animation: 800ms header-load-page forwards cubic-bezier(1,-0.01,.61,1); }
+  animation: 400ms header-load-page forwards cubic-bezier(1,-0.01,.61,1); }
 
 a {
-  display: block;
-  width: calc(25%);
-  height: 8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: calc(20% - 8px);
+  height: 12vw;
   text-align: center;
-  padding-top: 4vw;
+  line-height: 4vw;
+  /*padding-top: 4vw;*/
   font-family: 'Lexend Deca';
-  font-size: 40px;
+  font-size: 2vw;
   color: black;
   text-decoration: none;
-  animation: 800ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1);
+  animation: 400ms header-text-load-page forwards cubic-bezier(1,-0.01,.61,1);
   /*background-image: radial-gradient(#fab, #baf);*/
+  margin: 4px;
+  /*border: outset 3px transparent;*/
+  /*border-radius: 6px;*/
+  /*box-shadow: inset 0px 1px 4px #0000007f;*/
+  text-shadow: 0px -1px 2px #ffffff7f;
+  overflow: hidden;
 }
 
 a:hover {
-  color: white;
+  /*color: white;*/
+  filter: brightness(1.15);
+  box-shadow: inset 0px 1px 4px #ffffff7f;
 }
 
 @keyframes header-load-page {
@@ -55,21 +66,23 @@ a:hover {
   to { height: 80px; } }
 @keyframes header-text-load-page {
   from { font-size: 12vw; }
-  to { font-size: 40px; } }
+  to { font-size: 2vw; } }
 
-
+/*
 #ha, #ha h1 { background-color: #ffffff; color: #000000; }
 #hb, #hb h1 { background-color: #000000; color: #ffffff; }
+*/
 
 .page {
   display: flex;
   flex-flow: row wrap;
   background-color: #ffffff; }
 
+/*
 @media only screen and (min-width: 1201px) {
   .page {
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 12vw; }
+    grid-template-rows: 12vw; }font-size: 2vw;
   .button {
     height: 12vw; }
   .button * {
@@ -107,7 +120,7 @@ a:hover {
   display: table;
   grid-column: auto;
   grid-row: auto;
-  background-color: #3388cc; /* Fallback */ }
+  background-color: #3388cc; /* Fallback */ }/*
 .button * {
   text-align: center;
   vertical-align: middle;
@@ -125,3 +138,4 @@ a:hover {
 #bc { background-color: #f4cc02; }
 #bd { background-color: #e5463b; }
 #be { background-color: #9043c1; }
+*/
