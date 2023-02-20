@@ -1,0 +1,82 @@
+* {
+  line-height: 1.5;
+  font-family: 'Ubuntu Light'; }
+
+@font-face {
+font-family: 'Ubuntu Light';
+font-style: normal;
+font-weight: normal;
+src: local('Ubuntu Light'), url('Ubuntu/Ubuntu-Light.ttf') format('truetype'); }
+
+.bg-black { background-color: #000;  color: #fff; } .bg-black  > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-white { background-color: #fff;  color: #000; } .bg-white  > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #000; }
+.bg-teal  { background-color: #378;  color: #fff; } .bg-teal   > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-pink  { background-color: #fab;  color: #000; } .bg-pink   > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #000; }
+.bg-yellow{ background-color: #ed4;  color: #000; } .bg-yellow > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #000; }
+.bg-green { background-color: #5e9;  color: #fff; } .bg-green  > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-blue  { background-color: #37e;  color: #fff; } .bg-blue   > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-red   { background-color: #e54;  color: #fff; } .bg-red    > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-purple{ background-color: #95c;  color: #fff; } .bg-purple > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+.bg-none  { background-color: #0000; color: #fff; } .bg-none   > h1, .bg-black  > h2, .bg-black  > h3, .bg-black  > h4, .bg-black  > h5, .bg-black  > h6, .bg-black  > p, .bg-black  > q { color: #fff; }
+
+.t-black  { color: #000 !important; }
+.t-white  { color: #fff !important; }
+.t-teal   { color: #6ab !important; }
+.t-pink   { color: #b89 !important; }
+.t-yellow { color: #fe9 !important; }
+.t-green  { color: #5e7 !important; }
+.t-blue   { color: #59f !important; }
+.t-red    { color: #c36 !important; }
+.t-purple { color: #95c !important; }
+.t-none   { color: #0000!important; }
+
+html { background-color: black; background: radial-gradient(#444444, #222227) }
+
+h1 { font-size: 152px;}
+h2 { font-size: 92px; }
+h3 { font-size: 54px; }
+h4 { font-size: 40px; }
+h5 { font-size: 36px; }
+h6 { font-size: 34px; }
+p  { font-size: 48px; }
+a  { font-size: 48px; color: #f25; }
+q  { font-size: 48px; }
+li { font-size: 52px; }
+
+
+
+.t-center { text-align: center; }
+
+.slide { height: 1000px; width: 1860px; padding: 40px; }
+.active { }
+.substep { visibility: hidden; }
+.substep-visible { visibility: visible; }
+
+.toc-btn {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 80% 10%; }
+.toc-btn > button {
+  grid-column: 1;
+  grid-row: 2 / 3; }
+
+/*
+#s1 { background-color: #7c9; }
+#s2 { background-color: #f49; background-image: url(../images/Sheep-Wallpaper.jpg); background-size: cover; background-repeat: no-repeat; }
+#s3 { background-color: #2b6; background-image: url(../images/IMG_4948.jpg); background-size: cover; background-repeat: no-repeat; }
+#s4 { background-color: #333; }
+#s5 { background-color: #319; }
+#s6 { background-color: #9c0; }
+
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+> h1, h2, h3, h4, h5, h6, p, q
+
+*/
