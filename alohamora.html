@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mysterious Chest...</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/1.css">
+    <link rel="stylesheet" href="styles/create-4:3.css">
+
+  </head>
+  <body>
+
+    <style>
+      img {
+        width: 100vw;
+        height: auto;
+      }
+
+      html {
+        background: black;
+        overflow: hidden;
+      }
+    </style>
+
+    <div class="">
+      <img id="closed-chest" src="./images/alohamora/closed.png" style="display: block;">
+      <img id="opened-chest" src="./images/alohamora/opened.png" style="display: none;">
+    </div>
+
+    <script src="scripts/mousetrap.min.js"></script>
+    <script>
+      function open_chest() {
+        document.getElementById('closed-chest').style.display = 'none';
+        document.getElementById('opened-chest').style.display = 'block';
+        console.log('chest opened');
+      }
+
+      function close_chest() {
+        document.getElementById('closed-chest').style.display = 'block';
+        document.getElementById('opened-chest').style.display = 'none';
+        console.log('chest closed');
+      }
+
+      Mousetrap.bind('page-down', function () { open_chest(); } );
+      Mousetrap.bind('right', function () { open_chest(); } );
+      Mousetrap.bind('down', function () { open_chest(); } );
+      Mousetrap.bind('enter', function () { open_chest(); } );
+
+      Mousetrap.bind('page-up', function () { close_chest(); } );
+      Mousetrap.bind('left', function () { close_chest(); } );
+      Mousetrap.bind('up', function () { close_chest(); } );
+
+    </script>
+
+  </body>
+</html>
