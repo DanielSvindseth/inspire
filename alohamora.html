@@ -28,7 +28,8 @@
       <img id="opened-chest" src="./images/alohamora/opened.png" style="display: none;">
     </div>
 
-    <script src="scripts/mousetrap.min.js"></script>
+    <!-- <script src="scripts/mousetrap.min.js"></script> -->
+    <script src="scripts/hotkeys.js"></script>
     <script>
       function open_chest() {
         document.getElementById('closed-chest').style.display = 'none';
@@ -42,14 +43,26 @@
         console.log('chest closed');
       }
 
-      Mousetrap.bind('page-down', function () { open_chest(); } );
-      Mousetrap.bind('right', function () { open_chest(); } );
-      Mousetrap.bind('down', function () { open_chest(); } );
-      Mousetrap.bind('enter', function () { open_chest(); } );
+      hotkeys('f5', function (e, handler) { e.preventDefault(); open_chest(); } );
+      hotkeys(34, function (e, handler) { e.preventDefault(); open_chest(); } );
+      hotkeys('right', function () { open_chest(); } );
 
-      Mousetrap.bind('page-up', function () { close_chest(); } );
-      Mousetrap.bind('left', function () { close_chest(); } );
-      Mousetrap.bind('up', function () { close_chest(); } );
+      hotkeys(33, function (e, handler) { e.preventDefault(); close_chest(); } );
+      hotkeys('left', function () { close_chest(); } );
+
+      // Mousetrap.bind('pagedown', function () { open_chest(); } );
+      // Mousetrap.bind('page-down', function () { open_chest(); } );
+      // Mousetrap.bind('pagedn', function () { open_chest(); } );
+      // Mousetrap.bind('page-dn', function () { open_chest(); } );
+      // Mousetrap.bind('pgdn', function () { open_chest(); } );
+      // Mousetrap.bind('pg-dn', function () { open_chest(); } );
+      // Mousetrap.bind('right', function () { open_chest(); } );
+      // Mousetrap.bind('down', function () { open_chest(); } );
+      // Mousetrap.bind('enter', function () { open_chest(); } );
+      //
+      // Mousetrap.bind('pgup', function () { close_chest(); } );
+      // Mousetrap.bind('left', function () { close_chest(); } );
+      // Mousetrap.bind('up', function () { close_chest(); } );
 
     </script>
 
